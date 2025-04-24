@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "716575547527",
+    "project_id": "mastercard-6e3c9",
+    "storage_bucket": "mastercard-6e3c9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716575547527:android:65bda7b6f72d1ebb9bd822",
+        "android_client_info": {
+          "package_name": "com.example.card_master"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5sMkKEMjpsq3_NY8lJnVepcxYgcGaVHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

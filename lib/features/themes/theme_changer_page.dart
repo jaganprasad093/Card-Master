@@ -40,6 +40,7 @@
 //   }
 // }
 
+import 'package:card_master/core/constants/color_constants.dart';
 import 'package:card_master/features/themes/provider/theme_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -53,7 +54,9 @@ class ThemeChangerPage extends StatelessWidget {
     final isDarkMode = Theme.of(context).brightness == Brightness.dark;
 
     return Scaffold(
+      backgroundColor: ColorConstants.backgroundColor,
       appBar: AppBar(
+        backgroundColor: ColorConstants.backgroundColor,
         title: const Text('Theme Settings'),
         centerTitle: true,
         elevation: 0,

@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 
 class AtmCard extends StatelessWidget {
   final String bankName;
+  final String? atmTheme;
   final String cardNumber;
   final String cardHolderName;
   final String expiryDate;
@@ -22,7 +23,24 @@ class AtmCard extends StatelessWidget {
     this.expiryDate = "XX/XX",
     this.cvv = "XXX",
     this.remarks = "Remarks",
+    this.atmTheme,
   });
+  String _getCardImagePath() {
+    final themeNumber = int.tryParse(atmTheme ?? '1') ?? 1;
+    final safeThemeNumber = themeNumber.clamp(1, 4);
+    switch (safeThemeNumber) {
+      case 1:
+        return ImageConstants.card1;
+      case 2:
+        return ImageConstants.card2;
+      case 3:
+        return ImageConstants.card3;
+      case 4:
+        return ImageConstants.card4;
+      default:
+        return ImageConstants.card1;
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +54,7 @@ class AtmCard extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
         image: DecorationImage(
-          image: AssetImage(cardImage ?? ImageConstants.card1),
+          image: AssetImage(_getCardImagePath()),
           fit: BoxFit.cover,
         ),
       ),

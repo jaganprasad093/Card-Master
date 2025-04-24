@@ -31,22 +31,25 @@ This project is a starting point for scalable Flutter application development.
 
 > Screenshots are located in `assets/screenshots/`
 
-| Light Mode | Dark Mode |
-|------------|-----------|
-| ![Screenshot 1](assets/screenshots/Simulator%20Screenshot%20-%20jagans%20emulator%20-%202025-04-24%20at%2010.01.25.png) | ![Screenshot 2](assets/screenshots/Simulator%20Screenshot%20-%20jagans%20emulator%20-%202025-04-24%20at%2010.02.19.png) |
+| Home Page | Bank Master Page | Bank Master Page (Alt) |
+|-----------|------------------|-------------------------|
+| ![Screenshot 1](assets/screenshots/Simulator%20Screenshot%20-%20jagans%20emulator%20-%202025-04-24%20at%2010.02.19.png) | ![Screenshot 2](assets/screenshots/Simulator%20Screenshot%20-%20jagans%20emulator%20-%202025-04-24%20at%2010.01.25.png) | ![Screenshot 3](assets/screenshots/Simulator%20Screenshot%20-%20jagans%20emulator%20-%202025-04-24%20at%2010.18.52.png) |
 
-| Image Picker | Profile | Extra |
-|--------------|---------|--------|
-| ![Screenshot 3](assets/screenshots/Simulator%20Screenshot%20-%20jagans%20emulator%20-%202025-04-24%20at%2010.18.52.png) | ![Screenshot 4](assets/screenshots/Simulator%20Screenshot%20-%20jagans%20emulator%20-%202025-04-24%20at%2010.19.34.png) | ![Screenshot 5](assets/screenshots/Simulator%20Screenshot%20-%20jagans%20emulator%20-%202025-04-24%20at%2010.28.32.png) |
+| Credit Card Master Page | Theme Settings |
+|-------------------------|----------------|
+| ![Screenshot 4](assets/screenshots/Simulator%20Screenshot%20-%20jagans%20emulator%20-%202025-04-24%20at%2010.19.34.png) | ![Screenshot 5](assets/screenshots/Simulator%20Screenshot%20-%20jagans%20emulator%20-%202025-04-24%20at%2010.28.32.png) |
 
 ---
 
+<!--
 ## 🎬 Screen Recording
 
 > You can replace this with a YouTube link or embed a `.gif` screen recording.
 
 ![App Demo](assets/screenshots/demo.gif)
-<!-- Or add a link: [Watch Demo](https://your-demo-link.com) -->
+
+[Watch Demo](https://your-demo-link.com)
+-->
 
 ---
 
